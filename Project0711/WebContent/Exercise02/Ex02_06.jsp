@@ -10,6 +10,7 @@ table, tr, td{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
+    text-align: center;
 }
 table{
 	width: 100%;
@@ -27,10 +28,9 @@ table{
 			}
 		}
 	%>
-
 	<table>
 		<tr>
-		<th colspan="1">결과는...<th>
+		<td colspan="2">결과는...</td>
 		</tr>
 		<tr>
 		<td><%out.print("짝수들의 합: " + sum1 + "<BR>"); %></td>
